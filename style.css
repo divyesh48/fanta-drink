@@ -1,21 +1,22 @@
 @font-face {
-  font-family: Product Sans;
-  src: url(Fonts/Product\ Sans\ Regular.ttf);
+  font-family: ProductSans;
+  src: url(Fonts/ProductSansRegular.ttf);
 }
 @font-face {
-  font-family: Product Sans B;
-  src: url(Fonts/Product\ Sans\ Bold.ttf);
+  font-family: ProductSansB;
+  src: url(Fonts/ProductSansBold.ttf);
 }
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Product Sans;
+  font-family: ProductSans;
 }
 html,
 body {
   height: 100%;
   width: 100%;
+  transition: 0.2s;
 }
 
 body::-webkit-scrollbar {
@@ -80,7 +81,7 @@ nav i {
 
 .one h1 {
   font-size: 25vw;
-  font-family: Product Sans B;
+  font-family: ProductSansB;
   color: #fff;
 }
 
